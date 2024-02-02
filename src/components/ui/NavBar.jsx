@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Lenis from "@studio-freight/lenis";
 
-import resume from "/src/assets/images/resume.pdf";
+
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -72,10 +72,7 @@ export default function NavBar({ sectionRefs }) {
           <span>Projects</span>
           <span className="absolute bottom-0 left-0 h-[0.125em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
         </a>
-        <a href={resume} download="Resume" className="group relative hidden md:inline-block">
-          <span>Resume</span>
-          <span className="absolute bottom-0 left-0 h-[0.125em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-        </a>
+       
         <a
           ref={cta}
           className="button group relative hover:bg-transparent "

@@ -57,11 +57,12 @@ export default function Hero() {
             I'am Sami
           </h1>
         </div>
-        <div className="title text-2xl 2xl:py-16 ">
-          <h1 ref={(el) => (titles.current[2] = el)} className="translate-y-96">
+        <div className="title text-[15px] sm:text-3xl  2xl:py-16  ">
+          <h1 ref={(el) => (titles.current[2] = el)} className=" py-5 translate-y-96">
             FRONTEND WEB DEVELOPER
           </h1>
         </div>
+        
       </div>
       <div
         ref={imgContainer}
@@ -74,6 +75,7 @@ export default function Hero() {
           alt="Abstract cubic background image."
         />
       </div>
+      
       
       <div
         ref={scroll}
