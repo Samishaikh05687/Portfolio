@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
-import heroImg from '/src/assets/images/heroImg.webp';
+import heroImg from '/src/assets/images/heroimg.webp';
 
 
 export default function Hero() {
