@@ -1,4 +1,4 @@
-import resume from "/src/assets/images/resume.pdf";
+import resume from "/src/assets/images/SamiResume.pdf";
 
 export default function Role({ forwardedRef }) {
   return (
