@@ -29,27 +29,10 @@
     width:0;
 }
 
-.stylep{
+.count{
     position:absolute;
     font-size:130px;
-    color:#fff;
     font-weight:500;
-    transform:translateY(-15px);
-}
-
-.content{
-    hieght:100%;
-    weight:0;
-    position:absolute;
-    left:0;
-    top:0;
-    background-color:#121212;
-    z-index:3;
-    display:flex;
-    justify-content: center;
-    aligh-items:center;
-    flex-direction:column;
-    overflow:hidden;
     color:#fff;
-
+    transform:translateY(-15px);
 }
