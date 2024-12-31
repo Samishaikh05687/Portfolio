@@ -31,7 +31,7 @@ export default function Works({ forwardedRef }) {
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://samishaikh05687.github.io/echo-meet/"
+            link="https://echo-meet-six.vercel.app/"
             img={memento}
             alt="EchoMeet"
             name="EchoMeet"
