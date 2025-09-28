@@ -56,17 +56,18 @@ export default function About() {
             >
               A brief intro, who am I?
             </h3>
-            <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-             I am a third year CSE student Skilled in  C++, C, Python, Web development ,JavaScript, React and Java, DSA (Basic)
-              with a Bachelor of Engineering focused in Computer Engineering .
-              <br></br>
-              <br></br>I am a dedicated and results-driven software developer with a proven track record of excellence in frontend development.
-               I have a knack for crafting responsive and user-friendly web interfaces using cutting-edge technologies like NextJS, ReactJS etc.
-              <br></br>
-              <br></br>
-              I've always had a creative streak, therefore I'm looking forward to using my technical expertise to create within the realm of currently existing technology. 
-              I enjoy learning new things, doing programming, analyzing and fixing issues, and making new things.
-            </p>
+           <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0"> 
+  I am a Computer Science Engineering graduate with strong problem-solving skills and a solid foundation in programming, software development, and system design.  
+  <br /><br />
+  Skilled in C++, C, Python, Java, JavaScript, ReactJS, Next.js, and modern Web Development practices, with hands-on experience in Data Structures & Algorithms, Object-Oriented Programming, and Database Management (SQL, MongoDB).  
+  <br /><br />
+  I am passionate about building scalable, efficient, and user-friendly applications while following industry best practices in Agile development, version control (Git/GitHub), and cloud-based technologies.  
+  <br /><br />
+  I thrive in collaborative environments and enjoy exploring new technologies such as DevOps tools, RESTful APIs, and AI/ML concepts to continuously expand my skill set. My goal is to contribute effectively at TCS and grow into a versatile software engineer delivering impactful solutions.  
+  <br /><br />
+  I have actively participated in coding competitions and hackathons, including a 36-hour hackathon, where I developed innovative solutions under tight deadlines. These experiences strengthened my technical expertise, teamwork ability, and problem-solving approach in real-world scenarios.  
+</p>
+
           </div>
         </div>
       </div>

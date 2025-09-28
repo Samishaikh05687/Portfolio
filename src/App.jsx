@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 import NavBar from "./components/ui/NavBar";
@@ -11,6 +11,7 @@ import Services from "./components/homepage/Services";
 import Works from "./components/homepage/Works";
 import Contact from "./components/homepage/Contact";
 import Footer from "./components/ui/Footer";
+import Experience from "./components/homepage/Experience";
 
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
       <main className="px-5 md:px-10 xl:px-20 2xl:px-28">
         <Role forwardedRef={(el) => (sectionRefs.current[0] = el)} />{" "}
         <About />
+        <Experience  forwardedRef={(el) => (sectionRefs.current[1] = el)}  />
         <Services />
         <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
         <Contact />

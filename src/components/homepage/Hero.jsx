@@ -59,7 +59,7 @@ export default function Hero() {
         </div>
         <div className="title text-[15px] sm:text-3xl  2xl:py-16  ">
           <h1 ref={(el) => (titles.current[2] = el)} className=" py-5 translate-y-96">
-            FRONTEND WEB DEVELOPER
+            Full Stack Developer  
           </h1>
         </div>
         

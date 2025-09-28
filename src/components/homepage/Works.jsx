@@ -1,7 +1,7 @@
-import ibgroup from "/src/assets/images/P-1.webp";
-import memento from "/src/assets/images/P-2.webp";
-import acc from "/src/assets/images/P-4.webp";
-import daddy from "/src/assets/images/P-3.webp";
+import ibgroup from "/src/assets/images/Portfoilo.webp";
+import memento from "/src/assets/images/daddy-4.jpg";
+import acc from "/src/assets/images/daddy-2.jpg";
+import daddy from "/src/assets/images/daddy-3.jpg";
 import sunnyside from "/src/assets/images/P-5.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
@@ -18,48 +18,48 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://sketch-book-delta.vercel.app/"
+            link="https://sketchbook-v2-sable.vercel.app/"
             img={ibgroup}
-            alt="IBGroup vietnam website mockup"
+            alt="sketch-book"
             name="SketchBook - a Drawing Tool"
-            type="Frontend Development"
+            type="Full-Stack Development"
             year="2023"
-            tools="• TailwindCSS • JavaScript  "
+            tools="• NextJs • Socket.Io • NodeJS • TailwindCSS "
 
           />
         </div>
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://echo-meet-six.vercel.app/"
-            img={memento}
+            link="https://contentra-research-agent.vercel.app/"
+            img={daddy}
             alt="EchoMeet"
-            name="EchoMeet"
-            type="Frontend Development"
-            year="2023"
-            tools="• TailwindCSS • JavaScript"
+            name="Contentral - a research agent"
+            type="Full Stack Development"
+            year="2025"
+            tools="• Nodejs • JavaScript"
           />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://samishaikh05687.github.io/Tic-Tac-Toe/"
-            img={acc}
-            alt="Tic-Tac-Toe Game"
-            name="Tic-Tac-Toe Game"
-            type="Frontend Development"
-            year="2022"
-            tools="TailwindCSS • ReactJs"
+            link="https://autonomous-ecom-ai-agent.vercel.app/"
+            img={memento}
+            alt="Ecommerce AI Agent"
+            name="Ecommerce AI Agent    "
+            type="Full Stack Development"
+            year="2025"
+            tools="• ReactJs • MongoDB • Gemini API "
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://samishaikh05687.github.io/Sun-down-web/"
-            img={daddy}
-            alt="SunDown Studio Web"
-            name="SunDown Studio Web"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript"
+            link="https://samishaikh05687/"
+            img={acc}
+            alt="Quinn AI"
+            name="Quinn AI"
+            type="Full Stack Development"
+            year="2024"
+            tools="• NextJs • Cohere AI • PostgreSQL "
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">

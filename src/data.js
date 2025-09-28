@@ -1,41 +1,20 @@
-// projectsData.js
-import ibgroup from '/src/assets/images/ib-group-desktop.webp';
-import memento from '/src/assets/images/memento-desktop.webp';
-import acc from '/src/assets/images/acc-square.webp';
-import daddy from '/src/assets/images/godaddy-desktop.webp';
-import sunnyside from '/src/assets/images/sunny-side-square.webp';
-
-const projectsData = [
+export const experiences = [
   {
-    title: 'IB Group Vietnam Website',
-    description: 'Web Design / Frontend Development',
-    imageSrc: ibgroup,
-    link: 'https://musical-stroopwafel-1c2327.netlify.app/landing.html'
+    company: 'Tech Corp',
+    role: 'Frontend Developer',
+    duration: '2022-2023',
+    description: 'Developed and maintained the company website using React and TypeScript.'
   },
   {
-    title: 'Memento Studio Landing Page',
-    description: 'Web Design / Frontend Development',
-    imageSrc: memento,
-    link: 'https://mementostudio.netlify.app/'
+    company: 'Design Studio',
+    role: 'UI Developer',
+    duration: '2021-2022',
+    description: 'Designed and implemented the user interface for the company\'s dashboard application.'
   },
   {
-    title: 'Real Business Accountants',
-    description: 'Web Design / Frontend Development',
-    imageSrc: acc,
-    link: 'https://realbusinessaccountants.netlify.app'
-  },
-  {
-    title: 'GoDaddy Landing Page Clone',
-    description: 'Web Design / Frontend Development',
-    imageSrc: daddy,
-    link: 'https://godaddyuiclone.netlify.app'
-  },
-  {
-    title: 'Sunnyside Landing Page',
-    description: 'Web Design / Frontend Development',
-    imageSrc: sunnyside,
-    link: 'https://sunnysidechallenge.netlify.app'
+    company: 'StartUp Inc',
+    role: 'Junior Developer',
+    duration: '2020-2021',
+    description: 'Contributed to the development of the startup\'s core product using React and Node.js.'
   }
 ];
-
-export default projectsData;
